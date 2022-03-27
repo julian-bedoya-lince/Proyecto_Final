@@ -1,0 +1,34 @@
+header div{
+    
+    button{
+        
+            border-radius: 50px;
+        background-color: transparent !important;
+        &:hover{
+          
+            background-color: $colorLila !important;
+
+        
+        
+        }
+        
+    }
+}
+footer {
+    
+    button{
+        
+            border-radius: 50px;
+        background-color: $colorNegro !important;
+        color: $colorBlanco;
+        &:hover{
+            
+            background-color: $colorBlanco !important;
+
+        
+        
+        }
+        
+    }
+}
+

@@ -1,0 +1,140 @@
+header div button {
+  border-radius: 50px;
+  background-color: transparent !important;
+}
+
+header div button:hover {
+  background-color: #b5c2ce !important;
+}
+
+footer button {
+  border-radius: 50px;
+  background-color: black !important;
+  color: white;
+}
+
+footer button:hover {
+  background-color: white !important;
+}
+
+.row {
+  border-radius: 15px;
+  background-color: #b5c2ce;
+  margin: 10px;
+  padding: 10px;
+}
+
+.row div {
+  border: transparent 10px;
+  border-radius: 15px;
+  background-color: #b5c2ce;
+  color: black;
+}
+
+.row div h4 {
+  text-decoration: underline;
+}
+
+.row div h4 p {
+  color: black;
+}
+
+.row img {
+  width: 40%;
+  height: 40%;
+}
+
+.container-fluid nav {
+  border-radius: 15px;
+  background-color: #777faf;
+}
+
+.container-fluid nav h1 {
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+}
+
+.container-fluid nav img {
+  width: 60%;
+  height: 60%;
+}
+
+.coloricono1 a ion-icon {
+  background-color: #43d854;
+  text-decoration: none;
+  height: 30px;
+  width: 30px;
+  font-size: 0.1rem;
+  overflow: hidden;
+  color: black;
+  border-radius: 50%;
+}
+
+.coloricono2 a ion-icon {
+  background-color: #1013ca;
+  text-decoration: none;
+  height: 30px;
+  width: 30px;
+  font-size: 0.1rem;
+  overflow: hidden;
+  color: black;
+  border-radius: 50%;
+}
+
+.coloricono3 a ion-icon {
+  background-color: #dd2a7b;
+  text-decoration: none;
+  height: 30px;
+  width: 30px;
+  font-size: 0.1rem;
+  overflow: hidden;
+  color: black;
+  border-radius: 50%;
+}
+.carousel .slide{
+  display: flex !important;
+  align-items: center !important
+}
+.carousel-inner {
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center */
+}
+
+.carousel-inner div {
+  border-radius: 10px;
+  border: solid 2px;
+}
+
+.carousel-inner div img {
+  height: 350px 
+}
+
+.pages {
+  background-color: #777faf;
+  border-radius: 20px;
+}
+
+.pages ul {
+  text-align: center;
+}
+
+.pages ul a {
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+}
+
+.pages ul a i {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #777faf;
+  color: black;
+}
+
+body {
+  font: nomal 24px/1.5 "open Sans", sans-serif;
+  background-color: #b5c2ce;
+}
+/*# sourceMappingURL=styles.css.map */

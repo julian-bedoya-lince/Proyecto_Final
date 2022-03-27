@@ -1,0 +1,18 @@
+header div button {
+  border-radius: 50px;
+  background-color: transparent !important;
+}
+
+header div button:hover {
+  background-color: transparent !important;
+}
+
+footer div button {
+  border-radius: 50px;
+  background-color: !important;
+}
+
+footer div button:hover {
+  background-color: transparent !important;
+}
+/*# sourceMappingURL=boton.css.map */

@@ -1,0 +1,250 @@
+@import "variables";
+
+@import "boton";
+
+@mixin bordecoloricono{
+   
+         
+            height: 30px;
+            width: 30px;
+            font-size: 0.1rem;
+            // overflow: hidden;
+            color: black;
+            border-radius: 50%;
+}
+
+                
+.row{
+    border-radius: 15px;
+    background-color: $colorLila;
+    margin: 10px;
+    padding: 10px;
+    div{
+        border: transparent 10px ;
+        border-radius: 15px;
+        background-color: $colorLila;
+        color: $colorNegro;
+        
+         
+        
+        h4{
+            text-decoration: underline;
+           
+        // height: 20%;
+            p{
+               
+                color:$colorNegro;
+                // font-size: 1rem;
+            }
+        }
+    }
+     img {
+        width: 40%;
+        height: 40%;
+    }
+    
+}
+
+.container-fluid{
+    
+    nav{
+        border-radius: 15px;
+        
+        background-color: $colorAzul;
+        h1{
+            text-decoration: solid;
+            
+        }
+        img {
+            width: 60%;
+            height: 60%;
+        }
+        
+    }
+
+
+}
+
+.coloricono1{
+    a{
+        ion-icon{
+            background-color: rgb(67,216,84) ;
+            text-decoration: none;
+         
+            height: 30px;
+            width: 30px;
+            font-size: 0.1rem;
+            overflow: hidden;
+            color: black;
+            border-radius: 50%;
+        }
+    }
+
+}
+
+
+.coloricono2{
+    a{
+        ion-icon{
+            background-color: rgb(16, 19, 202);;
+            text-decoration: none;
+           
+            height: 30px;
+            width: 30px;
+            font-size: 0.1rem;
+            overflow: hidden;
+            color: black;
+            border-radius: 50%;
+        }
+        }   
+
+}
+.coloricono3{
+
+    a{
+        ion-icon{
+            background-color: rgb(221,42,123);
+            text-decoration: none;
+           
+            height: 30px;
+            width: 30px;
+            font-size: 0.1rem;
+            overflow: hidden;
+            color: black;
+            border-radius: 50%;
+        }
+    }
+} 
+
+.carousel-inner{
+    
+    border-radius: 15px;
+  
+    
+   
+    
+        
+    div{
+        border-radius: 10px;
+            border: solid 2px ;
+        
+        img{
+            
+            
+          
+            
+             width: 100px;
+          height: 400px;
+          
+        //   margin-left: 450px;
+        }    
+    }
+
+   
+ 
+}
+
+.pages{
+    background-color: $colorAzul;
+    border-radius: 20px;
+    
+        
+        ul{
+            text-align:center;
+           
+            
+            
+           
+            
+        
+       
+            
+        
+            
+            a{
+                
+                text-decoration: solid;
+                
+                i{
+                    margin: 20px;
+    padding: 10px;
+                    
+                    border-radius: 15px;
+                 background-color: $colorAzul;
+                 color:$colorNegro
+                 
+                }
+             }
+            }
+           
+            
+    }
+
+    
+
+
+
+body{
+    font: $tipografiaPrincipal;
+    background-color: $colorLila;
+    
+
+}
+
+        
+
+
+    
+// @if $Iconos=="si"{
+//     @for $i from 1 through 3{
+        
+//             .coloricono#{$i}{
+    
+        
+//             background-color: map-get($coloresIconos,$i);
+    
+//             }
+        
+// }
+// }
+// @else if $Iconos=="no"{
+//     @each$numero,
+//     $color in $coloresIconos{
+
+    
+//     .coloricono#{$numero}{
+                
+                    
+//                         @include bordecoloricono($color);
+                
+//                         }
+//                     }
+                    
+// }  
+// @else {
+//     div{
+//         @extend .extra;
+//     }
+   
+// }
+        
+    
+
+
+
+// @else if $colorIconos== "no"{
+//     div {
+//         a{
+//             ion-icon{
+//                 color: gray;
+//             }
+//         }
+        
+//     }
+// }
+// @else if $colorIconos == "no"{
+//     div{
+//         background-color: grey;
+//     }
+// }
+
